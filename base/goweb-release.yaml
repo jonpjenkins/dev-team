@@ -6,7 +6,6 @@ metadata:
 spec:
   serviceAccountName: dev-team
   releaseName: gowebserver
-  targetNamespace: apps
   chart:
     spec:
       chart: helm-chart-demo
