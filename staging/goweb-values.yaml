@@ -14,4 +14,4 @@ spec:
       tag: staging-4f68ec8a-1622596372
     service:
       port: 8080
-    replicas: 2
+    replicaCount: 2
