@@ -11,6 +11,6 @@ spec:
   values:
     image:
       repository: ghcr.io/jonpjenkins/gowebserver
-      tag: staging-1afa1a24-1622124356
+      tag: staging-4f68ec8a-1622596372
     service:
       port: 8080
