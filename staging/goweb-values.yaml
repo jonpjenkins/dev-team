@@ -11,7 +11,7 @@ spec:
   values:
     image:
       repository: ghcr.io/jonpjenkins/gowebserver
-      tag: staging-4f68ec8a-1622596372
+      tag: staging-4f68ec8a-1622596372 # {"$imagepolicy": "flux-system:gowebserver:tag"}
     service:
       port: 8080
     replicaCount: 1
