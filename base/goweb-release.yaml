@@ -1,0 +1,16 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: jonp-charts
+  namespace: apps
+spec:
+  serviceAccountName: dev-team
+  releaseName: gowebserver
+  chart:
+    spec:
+      chart: helm-chart-demo
+      sourceRef:
+        kind: HelmRepository
+        name: jonp-charts
+      version: '>=0.1.0'
+  interval: 10s
