@@ -12,7 +12,7 @@ spec:
     image:
       repository: ghcr.io/jonpjenkins/gowebserver
       tag: staging-4f68ec8a-1622596372
-      marker: "# \{\"$imagepolicy\": \"flux-system:gowebserver\"\}"
+      marker: '# {"\$imagepolicy": "flux-system:gowebserver"}'
     service:
       port: 8080
     replicaCount: 1
