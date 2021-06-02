@@ -11,6 +11,6 @@ spec:
       chart: helm-chart-demo
       sourceRef:
         kind: HelmRepository
-        name: jonp-charts
+        name: gowebserver
       version: '>=0.1.0'
   interval: 10s
