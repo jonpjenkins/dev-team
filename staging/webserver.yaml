@@ -32,5 +32,8 @@ spec:
     image:
       repository: ghcr.io/jonpjenkins/gowebserver
       tag: staging-1afa1a24-1622124356
+    serviceAccountName: dev-team
+    serviceAccount:
+      create: true
     service:
       port: 8080
