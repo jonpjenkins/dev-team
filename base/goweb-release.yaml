@@ -4,6 +4,7 @@ metadata:
   name: gowebserver
   namespace: apps
 spec:
+  serviceAccountName: dev-team
   releaseName: gowebserver
   chart:
     spec:
