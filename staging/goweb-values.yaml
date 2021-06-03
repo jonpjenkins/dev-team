@@ -15,5 +15,5 @@ spec:
     service:
       port: 8080
     serviceAccount:
-      create: true
+      create: false
     replicaCount: 1
