@@ -14,4 +14,5 @@ spec:
       tag: staging-4f68ec8a-1622596372 # {"$imagepolicy": "apps:gowebserver"}
     service:
       port: 8080
+    serviceAccountCreate: false
     replicaCount: 1
